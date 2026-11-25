@@ -1,0 +1,1883 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>麻花星空传剧_原创MV在线看完整_高清正版视频平台</title>
+<meta name="description" content="麻花星空传剧官方网站，专注原创MV在线看完整与高清正版影像内容，汇聚创作者、剧集与社区互动，打造值得信赖的视频内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e1230'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%2356e1c8' stroke-width='3'/%3E%3Cpath d='M27 22l16 10-16 10z' fill='%23ffd166'/%3E%3Ccircle cx='14' cy='14' r='2.5' fill='%23ff7b9c'/%3E%3Ccircle cx='50' cy='48' r='2.5' fill='%23ff7b9c'/%3E%3C/svg%3E">
+<style>
+:root{
+  --mh-bg:#0b0e24;
+  --mh-bg-soft:#121735;
+  --mh-panel:#171d40;
+  --mh-line:rgba(140,160,255,.18);
+  --mh-text:#eef1ff;
+  --mh-muted:#a5aed6;
+  --mh-teal:#56e1c8;
+  --mh-pink:#ff7b9c;
+  --mh-gold:#ffd166;
+  --mh-violet:#8b7bf7;
+  --mh-radius:18px;
+  --mh-shadow:0 18px 42px rgba(4,7,26,.55);
+  --mh-head-h:124px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;scroll-padding-top:var(--mh-head-h);}
+body{
+  margin:0;
+  background:var(--mh-bg);
+  color:var(--mh-text);
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+body.mh-modal-open{overflow:hidden;}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+button{font-family:inherit;cursor:pointer;}
+h1,h2,h3,h4,p,ul,ol,figure{margin:0;padding:0;}
+ul,ol{list-style:none;}
+.mh-shell{width:min(1180px,94vw);margin:0 auto;}
+.mh-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+/* ---------- 吸顶：公告条 + 页头 ---------- */
+.mh-fixed-top{
+  position:sticky;top:0;z-index:60;
+  backdrop-filter:blur(14px);
+  background:rgba(9,12,32,.92);
+  border-bottom:1px solid var(--mh-line);
+}
+.mh-announce{
+  background:linear-gradient(90deg,#241a54,#0f3c3f 55%,#3b1d3f);
+  font-size:13.5px;
+  border-bottom:1px solid var(--mh-line);
+}
+.mh-announce-inner{
+  display:flex;align-items:center;gap:12px;
+  padding:7px 0;flex-wrap:wrap;
+}
+.mh-announce-tag{
+  flex:0 0 auto;font-size:11.5px;letter-spacing:.14em;
+  background:var(--mh-gold);color:#1a1030;font-weight:700;
+  padding:2px 9px;border-radius:999px;
+}
+.mh-announce-track{position:relative;flex:1 1 320px;min-width:0;height:22px;overflow:hidden;}
+.mh-announce-item{
+  position:absolute;inset:0;display:flex;align-items:center;gap:8px;
+  color:#d6dcff;opacity:0;transform:translateY(10px);
+  transition:opacity .45s ease,transform .45s ease;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.mh-announce-item.is-live{opacity:1;transform:translateY(0);}
+.mh-announce-item b{color:var(--mh-teal);font-weight:600;}
+.mh-announce-more{
+  flex:0 0 auto;font-size:12.5px;color:var(--mh-teal);
+  border:1px solid rgba(86,225,200,.4);border-radius:999px;
+  padding:2px 12px;background:transparent;transition:.2s;
+}
+.mh-announce-more:hover{background:rgba(86,225,200,.12);}
+.mh-header-inner{
+  display:flex;align-items:center;gap:22px;padding:13px 0;
+}
+.mh-brand{display:flex;align-items:center;gap:11px;flex:0 0 auto;}
+.mh-brand-mark{
+  width:42px;height:42px;border-radius:13px;flex:0 0 auto;
+  background:radial-gradient(circle at 30% 25%,#2a3273,#0d1030 70%);
+  border:1px solid rgba(140,160,255,.35);
+  display:grid;place-items:center;
+}
+.mh-brand-mark svg{width:24px;height:24px;}
+.mh-brand-name{font-size:19px;font-weight:800;letter-spacing:.02em;line-height:1.25;}
+.mh-brand-name em{font-style:normal;color:var(--mh-teal);}
+.mh-brand-sub{display:block;font-size:11px;color:var(--mh-muted);letter-spacing:.18em;font-weight:400;}
+.mh-nav{display:flex;gap:4px;margin-left:6px;flex:1 1 auto;flex-wrap:wrap;}
+.mh-nav a{
+  font-size:14.2px;color:#c8cff2;padding:7px 12px;border-radius:10px;
+  transition:.18s;white-space:nowrap;
+}
+.mh-nav a:hover,.mh-nav a.is-active{color:#0c1029;background:var(--mh-teal);}
+.mh-head-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+.mh-search{
+  display:flex;align-items:center;gap:7px;
+  background:var(--mh-panel);border:1px solid var(--mh-line);
+  border-radius:999px;padding:5px 6px 5px 13px;
+}
+.mh-search input{
+  background:transparent;border:0;outline:0;color:var(--mh-text);
+  width:150px;font-size:13.5px;
+}
+.mh-search input::placeholder{color:#7a84b3;}
+.mh-search button{
+  border:0;background:var(--mh-violet);color:#fff;font-size:12.5px;
+  border-radius:999px;padding:5px 14px;transition:.2s;
+}
+.mh-search button:hover{background:var(--mh-pink);color:#20102a;}
+.mh-burger{
+  display:none;border:1px solid var(--mh-line);background:var(--mh-panel);
+  color:var(--mh-text);width:40px;height:40px;border-radius:11px;font-size:18px;
+}
+.mh-search-feedback{
+  font-size:12.5px;color:var(--mh-gold);min-height:18px;
+  padding:0 0 8px;display:none;
+}
+.mh-search-feedback.is-show{display:block;}
+
+/* ---------- 通用区块 ---------- */
+.mh-section{padding:64px 0;}
+.mh-section--tight{padding:48px 0;}
+.mh-section:nth-of-type(even){background:linear-gradient(180deg,rgba(23,29,64,.35),rgba(11,14,36,0));}
+.mh-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;
+  letter-spacing:.2em;color:var(--mh-teal);margin-bottom:12px;
+}
+.mh-eyebrow::before{content:"";width:22px;height:2px;background:var(--mh-teal);display:block;}
+.mh-h2{font-size:clamp(23px,3vw,31px);font-weight:800;line-height:1.3;letter-spacing:.01em;}
+.mh-h2 em{font-style:normal;color:var(--mh-gold);}
+.mh-lead{color:var(--mh-muted);font-size:15px;max-width:760px;margin-top:12px;}
+.mh-section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:30px;}
+.mh-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;
+  padding:11px 22px;font-size:14px;border:1px solid transparent;transition:.2s;font-weight:600;
+}
+.mh-btn--primary{background:var(--mh-teal);color:#08201d;}
+.mh-btn--primary:hover{background:#8bf2de;transform:translateY(-2px);}
+.mh-btn--ghost{border-color:rgba(140,160,255,.42);color:var(--mh-text);background:transparent;}
+.mh-btn--ghost:hover{border-color:var(--mh-teal);color:var(--mh-teal);}
+.mh-btn--pink{background:var(--mh-pink);color:#2a0f1c;}
+.mh-btn--pink:hover{background:#ffa1b8;transform:translateY(-2px);}
+.mh-chip{
+  display:inline-flex;align-items:center;border-radius:999px;
+  font-size:12px;padding:3px 11px;border:1px solid var(--mh-line);
+  color:var(--mh-muted);background:rgba(140,160,255,.07);
+}
+.mh-chip--teal{color:var(--mh-teal);border-color:rgba(86,225,200,.4);background:rgba(86,225,200,.09);}
+.mh-chip--gold{color:var(--mh-gold);border-color:rgba(255,209,102,.4);background:rgba(255,209,102,.09);}
+.mh-chip--pink{color:var(--mh-pink);border-color:rgba(255,123,156,.4);background:rgba(255,123,156,.09);}
+
+/* ---------- 首屏：左文右侧大图 + 数据条 ---------- */
+.mh-hero{padding:56px 0 24px;position:relative;overflow:hidden;}
+.mh-hero::after{
+  content:"";position:absolute;right:-160px;top:-120px;width:520px;height:520px;
+  background:radial-gradient(circle,rgba(139,123,247,.26),transparent 68%);
+  pointer-events:none;
+}
+.mh-hero-grid{
+  display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);
+  gap:44px;align-items:center;position:relative;z-index:2;
+}
+.mh-hero-badge{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;
+  border:1px solid rgba(86,225,200,.45);color:var(--mh-teal);
+  border-radius:999px;padding:5px 14px;letter-spacing:.08em;margin-bottom:18px;
+  background:rgba(86,225,200,.07);
+}
+.mh-hero-badge span{width:7px;height:7px;border-radius:50%;background:var(--mh-teal);box-shadow:0 0 0 4px rgba(86,225,200,.18);}
+.mh-h1{
+  font-size:clamp(31px,4.6vw,50px);line-height:1.16;font-weight:900;
+  letter-spacing:.01em;
+}
+.mh-h1 .mh-h1-accent{
+  background:linear-gradient(96deg,var(--mh-teal),var(--mh-gold) 55%,var(--mh-pink));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.mh-hero-tagline{margin-top:16px;font-size:16px;color:#c3cbf0;max-width:560px;}
+.mh-hero-intro{margin-top:14px;font-size:14.5px;color:var(--mh-muted);max-width:600px;}
+.mh-hero-intro strong{color:var(--mh-text);font-weight:600;}
+.mh-hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;}
+.mh-hero-stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:28px;
+}
+.mh-stat{
+  background:linear-gradient(160deg,rgba(28,35,78,.9),rgba(15,19,44,.7));
+  border:1px solid var(--mh-line);border-radius:14px;padding:14px 15px;
+}
+.mh-stat b{display:block;font-size:24px;color:var(--mh-teal);font-weight:800;letter-spacing:.01em;}
+.mh-stat span{font-size:12.5px;color:var(--mh-muted);}
+.mh-hero-visual{position:relative;}
+.mh-hero-frame{
+  border-radius:24px;overflow:hidden;border:1px solid rgba(140,160,255,.3);
+  box-shadow:var(--mh-shadow);background:#0a0d26;
+}
+.mh-hero-frame svg{display:block;width:100%;height:auto;}
+.mh-hero-float{
+  position:absolute;left:-16px;bottom:22px;
+  background:rgba(13,17,42,.94);border:1px solid rgba(86,225,200,.4);
+  border-radius:14px;padding:11px 15px;box-shadow:var(--mh-shadow);
+  display:flex;align-items:center;gap:10px;max-width:250px;
+}
+.mh-hero-float .mh-dot{width:9px;height:9px;border-radius:50%;background:var(--mh-pink);flex:0 0 auto;animation:mhPulse 1.8s infinite;}
+@keyframes mhPulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+.mh-hero-float p{font-size:12.5px;color:#d3daf6;line-height:1.5;}
+.mh-hero-float p b{color:var(--mh-teal);display:block;font-size:13px;}
+
+/* ---------- 焦点内容（一幅大图 + 文字列表） ---------- */
+.mh-focus-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:32px;align-items:start;}
+.mh-focus-main{
+  border-radius:var(--mh-radius);overflow:hidden;border:1px solid var(--mh-line);
+  background:var(--mh-panel);transition:.28s;
+}
+.mh-focus-main:hover{transform:translateY(-4px);box-shadow:var(--mh-shadow);border-color:rgba(86,225,200,.45);}
+.mh-focus-main figure{margin:0;aspect-ratio:16/9;overflow:hidden;background:#0a0d26;}
+.mh-focus-main figure svg{width:100%;height:100%;}
+.mh-focus-body{padding:20px 22px 22px;}
+.mh-focus-body h3{font-size:20px;line-height:1.4;margin:10px 0 8px;font-weight:700;}
+.mh-focus-body p{font-size:14px;color:var(--mh-muted);}
+.mh-focus-meta{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8d97c4;margin-top:14px;align-items:center;}
+.mh-focus-list{display:flex;flex-direction:column;gap:14px;}
+.mh-focus-item{
+  display:flex;gap:14px;background:rgba(23,29,64,.7);border:1px solid var(--mh-line);
+  border-radius:14px;padding:14px 16px;transition:.22s;
+}
+.mh-focus-item:hover{border-color:rgba(139,123,247,.55);background:rgba(30,37,82,.85);transform:translateX(3px);}
+.mh-focus-num{
+  font-size:19px;font-weight:900;color:var(--mh-gold);flex:0 0 30px;line-height:1.2;
+  font-family:Georgia,serif;
+}
+.mh-focus-item h4{font-size:15px;line-height:1.5;margin-bottom:5px;font-weight:600;}
+.mh-focus-item p{font-size:12.8px;color:var(--mh-muted);}
+.mh-focus-item .mh-chip{margin-top:7px;}
+
+/* ---------- 视频流：两列图文卡片 ---------- */
+.mh-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+.mh-video-card{
+  background:var(--mh-panel);border:1px solid var(--mh-line);border-radius:var(--mh-radius);
+  overflow:hidden;display:flex;flex-direction:column;transition:.26s;
+}
+.mh-video-card:hover{transform:translateY(-5px);box-shadow:var(--mh-shadow);border-color:rgba(86,225,200,.4);}
+.mh-video-thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:#0a0d26;}
+.mh-video-thumb svg{width:100%;height:100%;display:block;}
+.mh-video-play{
+  position:absolute;inset:0;display:grid;place-items:center;pointer-events:none;
+}
+.mh-video-play i{
+  width:52px;height:52px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(11,14,36,.62);border:1.5px solid rgba(238,241,255,.7);
+  font-style:normal;color:#fff;font-size:16px;padding-left:3px;
+}
+.mh-video-dur{
+  position:absolute;right:10px;bottom:10px;font-size:11.5px;
+  background:rgba(6,9,26,.85);border-radius:6px;padding:2px 8px;color:#cfd6f5;
+}
+.mh-video-body{padding:17px 19px 19px;display:flex;flex-direction:column;flex:1 1 auto;}
+.mh-video-body h3{font-size:16.5px;line-height:1.5;margin-bottom:8px;font-weight:700;}
+.mh-video-body p{font-size:13.3px;color:var(--mh-muted);flex:1 1 auto;}
+.mh-tagrow{display:flex;gap:7px;flex-wrap:wrap;margin:11px 0 13px;}
+.mh-video-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  border-top:1px dashed var(--mh-line);padding-top:12px;flex-wrap:wrap;
+}
+.mh-author-mini{display:flex;align-items:center;gap:7px;font-size:12.5px;color:#b9c2ea;}
+.mh-avatar{
+  width:26px;height:26px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+  font-size:11.5px;font-weight:700;color:#0d1030;
+}
+.mh-video-actions{display:flex;gap:6px;flex-wrap:wrap;}
+.mh-act{
+  border:1px solid var(--mh-line);background:rgba(140,160,255,.07);color:#c3cbf0;
+  border-radius:999px;font-size:11.8px;padding:4px 10px;display:inline-flex;align-items:center;gap:5px;
+  transition:.18s;
+}
+.mh-act:hover{border-color:var(--mh-teal);color:var(--mh-teal);}
+.mh-act.is-on{background:rgba(255,123,156,.16);border-color:var(--mh-pink);color:var(--mh-pink);}
+
+/* ---------- 板块：关键词深度解析 ---------- */
+.mh-story{
+  background:linear-gradient(150deg,rgba(31,26,72,.8),rgba(14,18,42,.92));
+  border:1px solid var(--mh-line);border-radius:24px;padding:36px clamp(20px,3.4vw,46px);
+}
+.mh-story-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:36px;align-items:start;}
+.mh-story h3{font-size:17.5px;margin:26px 0 10px;color:var(--mh-gold);font-weight:700;}
+.mh-story h3:first-of-type{margin-top:6px;}
+.mh-story p{font-size:14.6px;color:#c2caee;margin-bottom:13px;text-align:justify;}
+.mh-story p b{color:var(--mh-teal);font-weight:600;}
+.mh-aside-box{
+  background:rgba(11,14,36,.72);border:1px solid var(--mh-line);
+  border-radius:16px;padding:20px;position:sticky;top:calc(var(--mh-head-h) + 16px);
+}
+.mh-aside-box h4{font-size:14.5px;color:var(--mh-teal);margin-bottom:12px;letter-spacing:.04em;}
+.mh-aside-box li{
+  font-size:13px;color:var(--mh-muted);padding:9px 0;border-bottom:1px dashed var(--mh-line);
+  display:flex;justify-content:space-between;gap:10px;
+}
+.mh-aside-box li:last-child{border-bottom:0;}
+.mh-aside-box li span{color:var(--mh-gold);font-weight:600;flex:0 0 auto;}
+.mh-aside-note{font-size:12.3px;color:#8d97c4;margin-top:12px;line-height:1.7;}
+
+/* ---------- 专题 ---------- */
+.mh-topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+.mh-topic{
+  background:var(--mh-panel);border:1px solid var(--mh-line);border-radius:var(--mh-radius);
+  padding:20px;display:flex;flex-direction:column;transition:.24s;
+}
+.mh-topic:hover{border-color:rgba(255,209,102,.5);transform:translateY(-4px);}
+.mh-topic-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px;}
+.mh-topic h3{font-size:17px;font-weight:700;line-height:1.45;}
+.mh-topic > p{font-size:13.2px;color:var(--mh-muted);margin:9px 0 13px;}
+.mh-topic ol{display:flex;flex-direction:column;gap:8px;border-top:1px dashed var(--mh-line);padding-top:12px;}
+.mh-topic ol li{font-size:12.8px;color:#c1c9ea;display:flex;gap:8px;}
+.mh-topic ol li::before{content:"▸";color:var(--mh-teal);flex:0 0 auto;}
+
+/* ---------- 创作者：双列简介 ---------- */
+.mh-creators{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+.mh-creator{
+  display:flex;gap:16px;background:linear-gradient(150deg,rgba(28,34,76,.85),rgba(16,20,46,.8));
+  border:1px solid var(--mh-line);border-radius:var(--mh-radius);padding:19px;transition:.24s;
+}
+.mh-creator:hover{border-color:rgba(139,123,247,.55);transform:translateY(-3px);}
+.mh-creator-avatar{
+  width:62px;height:62px;border-radius:18px;flex:0 0 auto;display:grid;place-items:center;
+  font-size:21px;font-weight:800;color:#0b0e24;position:relative;overflow:hidden;
+}
+.mh-creator-avatar::after{content:"";position:absolute;inset:0;background:linear-gradient(140deg,rgba(255,255,255,.28),transparent 62%);}
+.mh-creator-info{min-width:0;flex:1 1 auto;}
+.mh-creator-info h3{font-size:16px;font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.mh-creator-info .mh-role{font-size:12px;color:var(--mh-teal);}
+.mh-creator-info p{font-size:12.9px;color:var(--mh-muted);margin-top:7px;}
+.mh-creator-nums{display:flex;gap:14px;margin-top:9px;font-size:12px;color:#96a0cc;flex-wrap:wrap;}
+.mh-creator-nums b{color:var(--mh-gold);font-weight:700;}
+.mh-creator-btn{
+  margin-top:10px;font-size:12px;border:1px solid var(--mh-line);background:transparent;
+  color:#c8cff2;border-radius:999px;padding:4px 13px;transition:.2s;
+}
+.mh-creator-btn:hover{border-color:var(--mh-pink);color:var(--mh-pink);}
+
+/* ---------- 短评列表 ---------- */
+.mh-comments{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;}
+.mh-comment{
+  background:rgba(23,29,64,.66);border:1px solid var(--mh-line);border-left:3px solid var(--mh-violet);
+  border-radius:12px;padding:15px 18px;
+}
+.mh-comment:nth-child(3n) {border-left-color:var(--mh-teal);}
+.mh-comment:nth-child(3n+1){border-left-color:var(--mh-pink);}
+.mh-comment-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px;}
+.mh-comment-head b{font-size:13.5px;}
+.mh-comment-stars{color:var(--mh-gold);font-size:12px;letter-spacing:1px;}
+.mh-comment p{font-size:13.6px;color:#c5cdec;}
+
+/* ---------- 数据榜单与图文索引 ---------- */
+.mh-rank-wrap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:26px;align-items:start;}
+.mh-rank{background:var(--mh-panel);border:1px solid var(--mh-line);border-radius:var(--mh-radius);overflow:hidden;}
+.mh-rank-head{display:flex;gap:6px;padding:14px 16px 0;flex-wrap:wrap;}
+.mh-rank-tab{
+  border:0;background:transparent;color:var(--mh-muted);font-size:13.5px;
+  padding:6px 14px;border-radius:999px;transition:.2s;
+}
+.mh-rank-tab.is-active{background:rgba(86,225,200,.16);color:var(--mh-teal);font-weight:600;}
+.mh-rank-list{padding:8px 10px 14px;}
+.mh-rank-row{
+  display:flex;align-items:center;gap:12px;padding:10px 10px;border-radius:10px;transition:.2s;
+}
+.mh-rank-row:hover{background:rgba(140,160,255,.09);}
+.mh-rank-row .mh-rank-no{
+  width:24px;font-size:14px;font-weight:800;color:#7d87b6;flex:0 0 auto;text-align:center;
+}
+.mh-rank-row:nth-child(1) .mh-rank-no{color:var(--mh-gold);}
+.mh-rank-row:nth-child(2) .mh-rank-no{color:#cfd6f5;}
+.mh-rank-row:nth-child(3) .mh-rank-no{color:var(--mh-pink);}
+.mh-rank-row h4{font-size:14px;font-weight:600;flex:1 1 auto;min-width:0;}
+.mh-rank-row .mh-rank-val{font-size:12px;color:var(--mh-teal);flex:0 0 auto;}
+.mh-index-list{display:flex;flex-direction:column;gap:12px;}
+.mh-index-item{
+  display:flex;gap:12px;background:rgba(23,29,64,.6);border:1px solid var(--mh-line);
+  border-radius:12px;padding:12px;transition:.2s;
+}
+.mh-index-item:hover{border-color:rgba(86,225,200,.45);}
+.mh-index-thumb{width:98px;flex:0 0 98px;aspect-ratio:4/3;border-radius:9px;overflow:hidden;background:#0a0d26;}
+.mh-index-thumb svg{width:100%;height:100%;}
+.mh-index-item h4{font-size:13.8px;font-weight:600;margin-bottom:4px;line-height:1.45;}
+.mh-index-item p{font-size:12.3px;color:var(--mh-muted);}
+
+/* ---------- FAQ ---------- */
+.mh-faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;}
+.mh-faq details{
+  background:rgba(23,29,64,.66);border:1px solid var(--mh-line);border-radius:13px;
+  padding:0 17px;transition:.2s;
+}
+.mh-faq details[open]{border-color:rgba(86,225,200,.5);background:rgba(28,35,78,.8);}
+.mh-faq summary{
+  cursor:pointer;list-style:none;padding:15px 0;font-size:14.2px;font-weight:600;
+  display:flex;justify-content:space-between;gap:12px;align-items:flex-start;
+}
+.mh-faq summary::-webkit-details-marker{display:none;}
+.mh-faq summary::after{content:"+";color:var(--mh-teal);font-size:17px;line-height:1;flex:0 0 auto;transition:.2s;}
+.mh-faq details[open] summary::after{content:"−";}
+.mh-faq details p{font-size:13.2px;color:var(--mh-muted);padding:0 0 16px;}
+
+/* ---------- 动态 / 合作 / 投稿 ---------- */
+.mh-duo{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;align-items:start;}
+.mh-news{border-left:2px solid rgba(139,123,247,.5);padding-left:22px;display:flex;flex-direction:column;gap:20px;}
+.mh-news-item{position:relative;}
+.mh-news-item::before{
+  content:"";position:absolute;left:-28px;top:7px;width:9px;height:9px;border-radius:50%;
+  background:var(--mh-teal);box-shadow:0 0 0 4px rgba(86,225,200,.16);
+}
+.mh-news-item time{font-size:11.8px;color:var(--mh-gold);letter-spacing:.06em;}
+.mh-news-item h3{font-size:15px;margin:4px 0 4px;font-weight:600;}
+.mh-news-item p{font-size:13px;color:var(--mh-muted);}
+.mh-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.mh-partner{
+  border:1px dashed var(--mh-line);border-radius:12px;padding:13px 15px;
+  font-size:13.2px;color:#c3cbf0;display:flex;align-items:center;gap:9px;transition:.2s;
+}
+.mh-partner:hover{border-color:var(--mh-teal);color:var(--mh-teal);}
+.mh-partner i{
+  width:8px;height:8px;border-radius:2px;background:var(--mh-violet);font-style:normal;flex:0 0 auto;
+}
+.mh-cta-band{
+  margin-top:26px;border-radius:var(--mh-radius);padding:26px;
+  background:linear-gradient(110deg,rgba(86,225,200,.14),rgba(139,123,247,.16) 55%,rgba(255,123,156,.14));
+  border:1px solid rgba(140,160,255,.3);
+  display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;
+}
+.mh-cta-band h3{font-size:18px;margin-bottom:5px;}
+.mh-cta-band p{font-size:13.4px;color:#c8cff0;max-width:560px;}
+
+/* ---------- 页脚 ---------- */
+.mh-footer{border-top:1px solid var(--mh-line);background:#080b1e;padding:50px 0 26px;}
+.mh-footer-grid{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(3,minmax(0,1fr));gap:32px;}
+.mh-footer-brand p{font-size:13.2px;color:var(--mh-muted);margin-top:12px;max-width:330px;}
+.mh-footer h4{font-size:13.5px;color:#dfe4ff;margin-bottom:12px;letter-spacing:.06em;}
+.mh-footer li{font-size:13px;color:var(--mh-muted);padding:4px 0;}
+.mh-footer li:hover{color:var(--mh-teal);}
+.mh-footer-bottom{
+  border-top:1px solid var(--mh-line);margin-top:34px;padding-top:18px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12.3px;color:#7d87b6;
+}
+.mh-footer-bottom a{color:#a5aed6;}
+.mh-footer-bottom a:hover{color:var(--mh-teal);}
+
+/* ---------- 弹窗 / Toast / 回到顶部 ---------- */
+.mh-modal{
+  position:fixed;inset:0;z-index:120;display:none;place-items:center;padding:20px;
+  background:rgba(5,7,20,.78);backdrop-filter:blur(5px);
+}
+.mh-modal.is-open{display:grid;}
+.mh-modal-card{
+  width:min(520px,100%);background:#121735;border:1px solid rgba(140,160,255,.35);
+  border-radius:20px;padding:26px;box-shadow:var(--mh-shadow);max-height:86vh;overflow:auto;
+}
+.mh-modal-card h3{font-size:18px;margin-bottom:8px;}
+.mh-modal-card > p{font-size:13.4px;color:var(--mh-muted);margin-bottom:14px;}
+.mh-modal-card label{display:block;font-size:12.8px;color:#b9c2ea;margin:12px 0 6px;}
+.mh-modal-card input,.mh-modal-card textarea{
+  width:100%;background:#0b0e24;border:1px solid var(--mh-line);border-radius:10px;
+  color:var(--mh-text);font-family:inherit;font-size:13.5px;padding:10px 12px;outline:0;
+}
+.mh-modal-card input:focus,.mh-modal-card textarea:focus{border-color:var(--mh-teal);}
+.mh-modal-close{
+  float:right;border:0;background:transparent;color:var(--mh-muted);font-size:22px;line-height:1;
+}
+.mh-modal-foot{display:flex;gap:10px;justify-content:flex-end;margin-top:18px;flex-wrap:wrap;}
+.mh-toast{
+  position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+  background:#1b2250;border:1px solid rgba(86,225,200,.5);color:#e6ebff;
+  font-size:13.5px;border-radius:999px;padding:10px 22px;z-index:200;
+  opacity:0;pointer-events:none;transition:.28s;box-shadow:var(--mh-shadow);
+}
+.mh-toast.is-show{opacity:1;transform:translate(-50%,0);}
+.mh-totop{
+  position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;
+  border:1px solid rgba(86,225,200,.45);background:rgba(18,23,53,.94);color:var(--mh-teal);
+  font-size:18px;z-index:90;display:none;place-items:center;transition:.2s;
+}
+.mh-totop.is-show{display:grid;}
+.mh-totop:hover{background:var(--mh-teal);color:#0b0e24;}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .mh-hero-grid{grid-template-columns:1fr;gap:32px;}
+  .mh-hero-float{left:12px;bottom:12px;}
+  .mh-story-grid{grid-template-columns:1fr;}
+  .mh-aside-box{position:static;}
+  .mh-focus-grid{grid-template-columns:1fr;}
+  .mh-rank-wrap{grid-template-columns:1fr;}
+  .mh-duo{grid-template-columns:1fr;}
+  .mh-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .mh-footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:860px){
+  :root{--mh-head-h:112px;}
+  .mh-nav{
+    display:none;width:100%;flex-direction:column;gap:2px;
+    padding:12px 0 4px;
+  }
+  .mh-nav.is-open{display:flex;}
+  .mh-header-inner{flex-wrap:wrap;gap:12px;}
+  .mh-nav a{padding:10px 12px;}
+  .mh-burger{display:grid;place-items:center;margin-left:auto;}
+  .mh-head-tools{order:3;width:100%;}
+  .mh-search{width:100%;}
+  .mh-search input{width:100%;}
+  .mh-video-grid{grid-template-columns:1fr;}
+  .mh-creators{grid-template-columns:1fr;}
+  .mh-faq{grid-template-columns:1fr;}
+  .mh-topic-grid{grid-template-columns:1fr;}
+  .mh-hero-stats{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:560px){
+  .mh-section{padding:44px 0;}
+  .mh-hero{padding-top:36px;}
+  .mh-hero-stats{grid-template-columns:1fr;}
+  .mh-footer-grid{grid-template-columns:1fr;}
+  .mh-partners{grid-template-columns:1fr;}
+  .mh-creator{flex-direction:column;}
+  .mh-cta-band{padding:20px;}
+  .mh-announce-more{display:none;}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- ===== S1 公告条 + 页头（吸顶） ===== -->
+<div class="mh-fixed-top">
+  <div class="mh-announce">
+    <div class="mh-shell mh-announce-inner">
+      <span class="mh-announce-tag">官方发布</span>
+      <div class="mh-announce-track" id="mhAnnounceTrack">
+        <div class="mh-announce-item is-live"><b>新增</b>《星空夜航·麻花传剧》第 12 集原创MV完整版上线，支持 4K 高清观看</div>
+        <div class="mh-announce-item"><b>开放报名</b>「冬日星轨」原创MV创意挑战赛启动，投稿期至 12 月 18 日</div>
+        <div class="mh-announce-item"><b>更新</b>创作者后台新增批量上传与字幕自动对齐，下载素材包更便捷</div>
+        <div class="mh-announce-item"><b>口碑榜</b>本周「值得信赖创作人」榜单更新，6 位社区创作者入选</div>
+      </div>
+      <button class="mh-announce-more" type="button" data-mh-scroll="#mhUpdates">查看全部动态</button>
+    </div>
+  </div>
+
+  <header class="mh-header">
+    <div class="mh-shell mh-header-inner">
+      <a class="mh-brand" href="#mhTop" aria-label="麻花星空传剧官方网站首页">
+        <span class="mh-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="19" fill="none" stroke="#56e1c8" stroke-width="2.6"/>
+            <path d="M27 21l17 11-17 11z" fill="#ffd166"/>
+            <circle cx="15" cy="15" r="2.4" fill="#ff7b9c"/>
+            <circle cx="49" cy="50" r="2.4" fill="#8b7bf7"/>
+          </svg>
+        </span>
+        <span>
+          <span class="mh-brand-name">麻花星空<em>传剧</em></span>
+          <span class="mh-brand-sub">ORIGINAL MV STUDIO</span>
+        </span>
+      </a>
+
+      <nav class="mh-nav" id="mhNav" aria-label="主导航">
+        <a href="#mhTop" class="is-active">首页</a>
+        <a href="#mhFocus">焦点推荐</a>
+        <a href="#mhVideos">原创MV</a>
+        <a href="#mhTopics">专题企划</a>
+        <a href="#mhCreators">创作者</a>
+        <a href="#mhRank">榜单口碑</a>
+        <a href="#mhFaq">帮助中心</a>
+      </nav>
+
+      <div class="mh-head-tools">
+        <div class="mh-search" role="search">
+          <label class="mh-sr-only" for="mhSearchInput">搜索原创MV、剧集或创作者</label>
+          <input id="mhSearchInput" type="search" placeholder="搜索 MV / 剧集 / 创作者" autocomplete="off">
+          <button type="button" id="mhSearchBtn">搜索</button>
+        </div>
+        <button class="mh-burger" type="button" id="mhBurger" aria-label="展开导航菜单" aria-expanded="false" aria-controls="mhNav">☰</button>
+      </div>
+    </div>
+    <div class="mh-shell">
+      <p class="mh-search-feedback" id="mhSearchFeedback" role="status"></p>
+    </div>
+  </header>
+</div>
+
+<main id="mhTop">
+
+  <!-- ===== S2 品牌首屏 ===== -->
+  <section class="mh-hero" aria-labelledby="mhHeroTitle">
+    <div class="mh-shell mh-hero-grid">
+      <div>
+        <span class="mh-hero-badge"><span aria-hidden="true"></span>麻花星空传剧 · 官方网站</span>
+        <h1 class="mh-h1" id="mhHeroTitle">麻花星空传剧<br><span class="mh-h1-accent">原创MV在线看完整</span></h1>
+        <p class="mh-hero-tagline">企业级原创影像品牌，把每一部麻花星空传剧原创MV的完整叙事，高清地交到观众手中。</p>
+        <p class="mh-hero-intro">作为深耕原创MV与短剧领域的<strong>视频品牌平台</strong>，我们搭建从剧本孵化、拍摄制作到正版发布的内容生态，让创作者被看见，让观众在星空下找到值得完整看完的作品。</p>
+        <div class="mh-hero-actions">
+          <a class="mh-btn mh-btn--primary" href="#mhVideos">▶ 在线观看完整版</a>
+          <a class="mh-btn mh-btn--ghost" href="#mhCreators">认识创作者</a>
+          <button class="mh-btn mh-btn--ghost" type="button" data-mh-modal="mhSubmitModal">我要投稿</button>
+        </div>
+        <div class="mh-hero-stats">
+          <div class="mh-stat"><b data-mh-count="1860">1860</b><span>部原创MV与短剧作品</span></div>
+          <div class="mh-stat"><b data-mh-count="326">326</b><span>位签约与社区创作者</span></div>
+          <div class="mh-stat"><b data-mh-count="98">98</b><span>%完整观看好评口碑</span></div>
+        </div>
+      </div>
+
+      <div class="mh-hero-visual">
+        <div class="mh-hero-frame">
+          <svg viewBox="0 0 800 520" role="img" aria-label="麻花星空传剧原创MV星空舞台主视觉，星轨环绕与升降镜头构图">
+            <defs>
+              <linearGradient id="mhSkyGrad" x1="0" y1="0" x2="0.4" y2="1">
+                <stop offset="0" stop-color="#0a0f33"/>
+                <stop offset="0.52" stop-color="#1a1a52"/>
+                <stop offset="1" stop-color="#3a1c4d"/>
+              </linearGradient>
+              <radialGradient id="mhMoonGlow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.95"/>
+                <stop offset="0.55" stop-color="#ffd166" stop-opacity="0.35"/>
+                <stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="mhStageGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#56e1c8"/>
+                <stop offset="0.6" stop-color="#8b7bf7"/>
+                <stop offset="1" stop-color="#ff7b9c"/>
+              </linearGradient>
+            </defs>
+            <rect width="800" height="520" fill="url(#mhSkyGrad)"/>
+            <circle cx="628" cy="118" r="150" fill="url(#mhMoonGlow)"/>
+            <circle cx="628" cy="118" r="46" fill="#ffe9a8"/>
+            <circle cx="612" cy="106" r="9" fill="#f0cf85" opacity="0.6"/>
+            <circle cx="648" cy="132" r="6" fill="#f0cf85" opacity="0.5"/>
+            <g fill="#eef1ff" opacity="0.85">
+              <circle cx="72" cy="66" r="2.2"/><circle cx="164" cy="42" r="1.6"/><circle cx="248" cy="90" r="2.6"/>
+              <circle cx="340" cy="56" r="1.8"/><circle cx="430" cy="104" r="2"/><circle cx="112" cy="152" r="1.6"/>
+              <circle cx="520" cy="66" r="2.4"/><circle cx="700" cy="248" r="2"/><circle cx="60" cy="236" r="2.6"/>
+              <circle cx="300" cy="180" r="1.6"/><circle cx="742" cy="86" r="1.8"/><circle cx="196" cy="228" r="2"/>
+            </g>
+            <path d="M40 380 Q220 250 400 350 T780 300" fill="none" stroke="#56e1c8" stroke-width="2.4" opacity="0.55"/>
+            <path d="M20 420 Q240 300 460 392 T820 348" fill="none" stroke="#8b7bf7" stroke-width="1.8" opacity="0.45"/>
+            <path d="M0 460 Q260 372 500 440 T800 402" fill="none" stroke="#ff7b9c" stroke-width="1.6" opacity="0.4"/>
+            <ellipse cx="400" cy="452" rx="330" ry="46" fill="#0a0d26" opacity="0.85"/>
+            <rect x="252" y="248" width="296" height="176" rx="10" fill="#101536" stroke="url(#mhStageGrad)" stroke-width="2.4"/>
+            <rect x="272" y="268" width="256" height="136" rx="6" fill="#1a2050"/>
+            <circle cx="400" cy="336" r="34" fill="none" stroke="#56e1c8" stroke-width="2.4"/>
+            <path d="M390 320l26 16-26 16z" fill="#ffd166"/>
+            <g opacity="0.9">
+              <rect x="176" y="300" width="52" height="124" rx="22" fill="#171d40" stroke="#8b7bf7" stroke-width="1.6"/>
+              <circle cx="202" cy="290" r="17" fill="#2a3168" stroke="#56e1c8" stroke-width="1.6"/>
+              <rect x="572" y="300" width="52" height="124" rx="22" fill="#171d40" stroke="#ff7b9c" stroke-width="1.6"/>
+              <circle cx="598" cy="290" r="17" fill="#2a3168" stroke="#ffd166" stroke-width="1.6"/>
+            </g>
+            <path d="M138 254l26 48h-52z" fill="#ff7b9c" opacity="0.32"/>
+            <path d="M662 254l26 48h-52z" fill="#56e1c8" opacity="0.32"/>
+            <g fill="none" stroke="#eef1ff" stroke-width="1.4" opacity="0.55">
+              <path d="M120 470q120-42 280-18"/><path d="M400 452q160-24 280 18"/>
+            </g>
+            <text x="42" y="494" font-family="Georgia,serif" font-size="15" fill="#c3cbf0" opacity="0.8" letter-spacing="3">MAHUA STARLIGHT · ORIGINAL MV</text>
+          </svg>
+        </div>
+        <div class="mh-hero-float">
+          <span class="mh-dot" aria-hidden="true"></span>
+          <p><b>正在热播</b>《星轨未尽》完整版 · 26:40</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S3 焦点内容：一幅大图 + 文字列表 ===== -->
+  <section class="mh-section" id="mhFocus" aria-labelledby="mhFocusTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">焦点推荐</span>
+          <h2 class="mh-h2" id="mhFocusTitle">本周<em>编辑部</em>力荐的完整版影像</h2>
+          <p class="mh-lead">麻花星空传剧官方网站编辑部每周从原创MV与短剧投稿中筛选完成度高、叙事完整的作品，优先呈现可一次性看完的完整版本。</p>
+        </div>
+        <a class="mh-btn mh-btn--ghost" href="#mhVideos">进入视频库 →</a>
+      </div>
+
+      <div class="mh-focus-grid">
+        <article class="mh-focus-main">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="原创MV星轨未尽完整版封面，雨夜天台上仰拍星空的剪影与霓虹字幕">
+              <defs>
+                <linearGradient id="mhFocusSky" x1="0" y1="0" x2="0.3" y2="1">
+                  <stop offset="0" stop-color="#0b1030"/>
+                  <stop offset="0.6" stop-color="#20245e"/>
+                  <stop offset="1" stop-color="#4a2350"/>
+                </linearGradient>
+                <linearGradient id="mhFocusNeon" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#56e1c8"/>
+                  <stop offset="1" stop-color="#ff7b9c"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="360" fill="url(#mhFocusSky)"/>
+              <g fill="#eef1ff" opacity="0.75">
+                <circle cx="60" cy="52" r="1.8"/><circle cx="140" cy="30" r="1.4"/><circle cx="230" cy="70" r="2"/>
+                <circle cx="330" cy="40" r="1.6"/><circle cx="420" cy="88" r="2.2"/><circle cx="520" cy="46" r="1.5"/>
+                <circle cx="590" cy="96" r="1.9"/><circle cx="90" cy="130" r="1.4"/><circle cx="470" cy="140" r="1.6"/>
+              </g>
+              <path d="M0 250 L120 196 L240 240 L360 190 L480 232 L640 186 L640 360 L0 360 Z" fill="#121736"/>
+              <rect x="0" y="276" width="640" height="84" fill="#0a0d26"/>
+              <g>
+                <rect x="70" y="196" width="46" height="82" fill="#1c2350"/>
+                <rect x="132" y="172" width="34" height="106" fill="#171d42"/>
+                <rect x="470" y="184" width="52" height="94" fill="#1c2350"/>
+                <rect x="538" y="204" width="38" height="74" fill="#171d42"/>
+              </g>
+              <g fill="#ffd166" opacity="0.85">
+                <rect x="80" y="210" width="7" height="7"/><rect x="98" y="228" width="7" height="7"/>
+                <rect x="482" y="200" width="7" height="7"/><rect x="502" y="222" width="7" height="7"/>
+                <rect x="552" y="220" width="7" height="7"/>
+              </g>
+              <g>
+                <path d="M300 292c0-26 10-42 20-42s20 16 20 42z" fill="#0b0e24" stroke="#56e1c8" stroke-width="1.4"/>
+                <circle cx="320" cy="240" r="15" fill="#0b0e24" stroke="#56e1c8" stroke-width="1.4"/>
+                <path d="M320 226c9 0 15 6 15 13" fill="none" stroke="#ff7b9c" stroke-width="1.6"/>
+              </g>
+              <path d="M40 168q200-80 400-30" fill="none" stroke="url(#mhFocusNeon)" stroke-width="2" opacity="0.6"/>
+              <rect x="36" y="30" width="118" height="26" rx="13" fill="rgba(86,225,200,0.16)" stroke="#56e1c8" stroke-width="1"/>
+              <text x="52" y="48" font-size="13" fill="#56e1c8" font-family="PingFang SC,Microsoft YaHei,sans-serif">完整版 · 高清</text>
+            </svg>
+          </figure>
+          <div class="mh-focus-body">
+            <span class="mh-chip mh-chip--gold">编辑首选</span>
+            <h3>《星轨未尽》原创MV完整版：一场关于天台、雨夜与告别的长镜头</h3>
+            <p>26分40秒无删减版本，收录主创访谈与拍摄手记。整支MV用一条连续的运动镜头穿过旧城天台，把城市的霓虹与麻花星空传剧的原创叙事缝在同一片星空下。</p>
+            <div class="mh-focus-meta">
+              <span>导演：沈夜舟</span><span>播放 128.4万</span><span>收藏 3.2万</span>
+              <button class="mh-act" type="button" data-mh-like="12841">♡ 点赞 <span>1.2万</span></button>
+              <button class="mh-act" type="button" data-mh-copy>复制链接</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="mh-focus-list">
+          <article class="mh-focus-item">
+            <span class="mh-focus-num">01</span>
+            <div>
+              <h4>《夏至未眠》拍摄幕后全记录</h4>
+              <p>从选角到调色的十一天，剧组如何用两块反光板拍出整片海边黄昏。</p>
+              <span class="mh-chip">创作幕后</span>
+            </div>
+          </article>
+          <article class="mh-focus-item">
+            <span class="mh-focus-num">02</span>
+            <div>
+              <h4>创作者访谈：阿椰与她的手持镜头</h4>
+              <p>聊她为什么坚持一台机器拍完整部短剧，以及关于真实情绪的表达底线。</p>
+              <span class="mh-chip mh-chip--teal">人物访谈</span>
+            </div>
+          </article>
+          <article class="mh-focus-item">
+            <span class="mh-focus-num">03</span>
+            <div>
+              <h4>「冬日星轨」创意挑战赛报名开启</h4>
+              <p>面向全体社区创作者，三分钟以内原创MV单元，官方提供免费素材与调色预设下载。</p>
+              <span class="mh-chip mh-chip--pink">比赛报名</span>
+            </div>
+          </article>
+          <article class="mh-focus-item">
+            <span class="mh-focus-num">04</span>
+            <div>
+              <h4>麻花星空传剧原创MV的色彩方法论</h4>
+              <p>把蓝紫冷调与霓虹粉做对撞，是我们在完整版作品中反复使用的视觉公式。</p>
+              <span class="mh-chip">行业观察</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S3/M3 视频流：两列图文卡片 ===== -->
+  <section class="mh-section" id="mhVideos" aria-labelledby="mhVideosTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">原创MV在线看</span>
+          <h2 class="mh-h2" id="mhVideosTitle">麻花星空传剧<em>完整版</em>作品库</h2>
+          <p class="mh-lead">以下作品均为官方正版、高清上线，支持在线看完整片。每个条目附完整时长、作者与数据，点击卡片即可进入播放页。</p>
+        </div>
+        <div class="mh-tagrow" aria-label="内容标签筛选">
+          <button class="mh-chip mh-chip--teal" type="button" data-mh-filter="全部">全部</button>
+          <button class="mh-chip" type="button" data-mh-filter="剧情MV">剧情MV</button>
+          <button class="mh-chip" type="button" data-mh-filter="现场影像">现场影像</button>
+          <button class="mh-chip" type="button" data-mh-filter="创作幕后">创作幕后</button>
+        </div>
+      </div>
+
+      <div class="mh-video-grid" id="mhVideoGrid">
+        <article class="mh-video-card" data-mh-tag="剧情MV">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 640 360" role="img" aria-label="剧情MV星轨未尽封面，蓝紫色夜空下的天台人物剪影">
+              <defs>
+                <linearGradient id="mhV1" x1="0" y1="0" x2="0.5" y2="1">
+                  <stop offset="0" stop-color="#101a45"/><stop offset="1" stop-color="#2b2058"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="360" fill="url(#mhV1)"/>
+              <circle cx="486" cy="96" r="62" fill="#ffd166" opacity="0.16"/>
+              <circle cx="486" cy="96" r="30" fill="#ffe9a8" opacity="0.85"/>
+              <path d="M0 268q160-72 320-24t320-42v158H0z" fill="#0b0e24"/>
+              <path d="M300 268c0-30 12-48 22-48s22 18 22 48z" fill="#151a3c" stroke="#56e1c8" stroke-width="1.4"/>
+              <circle cx="322" cy="208" r="15" fill="#151a3c" stroke="#56e1c8" stroke-width="1.4"/>
+              <g fill="#eef1ff" opacity="0.7">
+                <circle cx="80" cy="60" r="1.8"/><circle cx="180" cy="44" r="1.5"/><circle cx="270" cy="84" r="2"/>
+                <circle cx="380" cy="40" r="1.6"/><circle cx="560" cy="190" r="1.8"/>
+              </g>
+              <rect x="26" y="24" width="112" height="24" rx="12" fill="rgba(86,225,200,0.16)" stroke="#56e1c8" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#56e1c8" font-family="PingFang SC,Microsoft YaHei,sans-serif">剧情MV</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">26:40</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>《星轨未尽》原创MV完整版</h3>
+            <p>一条从天台到地铁口的连续长镜头，讲完两个人在城市里最后的同行。完整版保留全部对话与片尾曲。</p>
+            <div class="mh-tagrow"><span class="mh-chip">剧情MV</span><span class="mh-chip mh-chip--gold">完整版</span><span class="mh-chip">城市探索</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#56e1c8,#8b7bf7)">沈</span>沈夜舟</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="21884">♡ <span>2.1万</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="mh-video-card" data-mh-tag="剧情MV">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 640 360" role="img" aria-label="剧情MV夏至未眠封面，海边黄昏剪影与横向光带">
+              <defs>
+                <linearGradient id="mhV2" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#2a1b4d"/><stop offset="0.55" stop-color="#8a3a63"/><stop offset="1" stop-color="#f2a35c"/>
+                </linearGradient>
+              </defs>
+              <rect width="640" height="360" fill="url(#mhV2)"/>
+              <circle cx="330" cy="196" r="52" fill="#ffe0a3" opacity="0.9"/>
+              <rect x="0" y="228" width="640" height="132" fill="#171a3e" opacity="0.92"/>
+              <g stroke="#ffd166" stroke-width="2" opacity="0.55">
+                <line x1="70" y1="252" x2="170" y2="252"/><line x1="420" y1="268" x2="540" y2="268"/>
+                <line x1="200" y1="300" x2="300" y2="300"/>
+              </g>
+              <g>
+                <path d="M300 300c0-26 11-42 20-42s20 16 20 42z" fill="#0f1230"/>
+                <circle cx="320" cy="250" r="13" fill="#0f1230"/>
+                <path d="M356 300c0-22 9-36 17-36s17 14 17 36z" fill="#0f1230"/>
+                <circle cx="373" cy="258" r="11" fill="#0f1230"/>
+              </g>
+              <rect x="26" y="24" width="112" height="24" rx="12" fill="rgba(255,209,102,0.16)" stroke="#ffd166" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#ffd166" font-family="PingFang SC,Microsoft YaHei,sans-serif">剧情MV</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">18:12</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>《夏至未眠》海边黄昏完整剪辑</h3>
+            <p>两块反光板、一整个退潮的傍晚，拍出两个人不敢说出口的告别。字幕组同步上线中英双语。</p>
+            <div class="mh-tagrow"><span class="mh-chip">剧情MV</span><span class="mh-chip mh-chip--teal">治愈影像</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#ffd166,#ff7b9c)">椰</span>阿椰</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="9642">♡ <span>9642</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="mh-video-card" data-mh-tag="现场影像">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 800 450" role="img" aria-label="现场影像城市声浪Live封面，舞台光束与观众举起的手">
+              <rect width="800" height="450" fill="#0a0d26"/>
+              <rect x="0" y="0" width="800" height="450" fill="#101536" opacity="0.6"/>
+              <g opacity="0.55">
+                <polygon points="220,0 300,300 180,300" fill="#56e1c8"/>
+                <polygon points="400,0 470,290 340,290" fill="#8b7bf7"/>
+                <polygon points="600,0 660,300 540,300" fill="#ff7b9c"/>
+              </g>
+              <rect x="0" y="318" width="800" height="132" fill="#080b1e"/>
+              <g fill="#eef1ff" opacity="0.8">
+                <path d="M140 368l10-32 10 32z"/><path d="M220 382l10-30 10 30z"/>
+                <path d="M360 360l10-34 10 34z"/><path d="M470 386l10-30 10 30z"/>
+                <path d="M600 366l10-34 10 34z"/><path d="M700 380l10-30 10 30z"/>
+              </g>
+              <g fill="#0b0e24">
+                <circle cx="160" cy="374" r="13"/><circle cx="240" cy="386" r="12"/><circle cx="380" cy="366" r="12"/>
+                <circle cx="490" cy="390" r="11"/><circle cx="620" cy="372" r="12"/><circle cx="720" cy="386" r="11"/>
+              </g>
+              <rect x="330" y="150" width="140" height="130" rx="10" fill="#171d42" stroke="#56e1c8" stroke-width="2"/>
+              <circle cx="400" cy="205" r="32" fill="none" stroke="#ffd166" stroke-width="2.4"/>
+              <path d="M390 190l24 15-24 15z" fill="#ffd166"/>
+              <rect x="26" y="24" width="118" height="24" rx="12" fill="rgba(139,123,247,0.18)" stroke="#8b7bf7" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#c7bdff" font-family="PingFang SC,Microsoft YaHei,sans-serif">现场影像</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">42:05</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>《城市声浪》Live 全场 · 官方正版回放</h3>
+            <p>麻花星空传剧年度现场影像企划，六组独立音乐人连唱，收录未公开返场曲目与后台花絮。</p>
+            <div class="mh-tagrow"><span class="mh-chip">现场影像</span><span class="mh-chip mh-chip--pink">音乐现场</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#8b7bf7,#56e1c8)">声</span>声浪计划</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="15320">♡ <span>1.5万</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="mh-video-card" data-mh-tag="创作幕后">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 800 450" role="img" aria-label="创作幕后拍摄手记封面，摄影机与场记板示意图">
+              <rect width="800" height="450" fill="#12162f"/>
+              <rect x="0" y="330" width="800" height="120" fill="#0a0d26"/>
+              <g>
+                <rect x="120" y="186" width="230" height="130" rx="14" fill="#1b2250" stroke="#56e1c8" stroke-width="2.4"/>
+                <circle cx="235" cy="251" r="44" fill="#0d1030" stroke="#8b7bf7" stroke-width="2.4"/>
+                <circle cx="235" cy="251" r="24" fill="none" stroke="#ffd166" stroke-width="2"/>
+                <path d="M370 214l58-30v96l-58-30z" fill="#1b2250" stroke="#ff7b9c" stroke-width="2"/>
+                <rect x="150" y="140" width="120" height="26" rx="6" fill="#2a3168"/>
+              </g>
+              <g>
+                <rect x="500" y="150" width="180" height="120" rx="8" fill="#171d40" stroke="#ffd166" stroke-width="2"/>
+                <g stroke="#0a0d26" stroke-width="9">
+                  <line x1="500" y1="190" x2="680" y2="190"/><line x1="500" y1="225" x2="680" y2="225"/>
+                </g>
+                <line x1="540" y1="150" x2="540" y2="270" stroke="#0a0d26" stroke-width="3"/>
+              </g>
+              <path d="M64 400h672" stroke="#2a3168" stroke-width="2" stroke-dasharray="8 10"/>
+              <rect x="26" y="24" width="128" height="24" rx="12" fill="rgba(255,123,156,0.16)" stroke="#ff7b9c" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#ffb3c6" font-family="PingFang SC,Microsoft YaHei,sans-serif">创作幕后</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">15:26</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>一支MV的十一天：拍摄手记与器材清单</h3>
+            <p>从勘景到杀青的完整流程，附灯光位图、分镜表和后期调色思路，可下载官方素材包。</p>
+            <div class="mh-tagrow"><span class="mh-chip">创作幕后</span><span class="mh-chip mh-chip--teal">实用技巧</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#ff7b9c,#ffd166)">李</span>李又川</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="7286">♡ <span>7286</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="mh-video-card" data-mh-tag="剧情MV">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 800 450" role="img" aria-label="剧情MV纸鸢不落封面，风筝与绿色旷野的俯视构图">
+              <defs>
+                <linearGradient id="mhV5" x1="0" y1="0" x2="0.6" y2="1">
+                  <stop offset="0" stop-color="#11302e"/><stop offset="1" stop-color="#215a4e"/>
+                </linearGradient>
+              </defs>
+              <rect width="800" height="450" fill="url(#mhV5)"/>
+              <ellipse cx="400" cy="318" rx="360" ry="86" fill="#0d1f1e" opacity="0.8"/>
+              <path d="M0 358q200-66 400-34t400-22v148H0z" fill="#0a1a18"/>
+              <g stroke="#ffd166" stroke-width="2.4" fill="none">
+                <line x1="252" y1="118" x2="400" y2="252"/>
+              </g>
+              <path d="M252 118l34-48 34 48-34 52z" fill="#ff7b9c" stroke="#ffe9a8" stroke-width="2"/>
+              <path d="M252 166l-24 26 24 8" fill="none" stroke="#ffe9a8" stroke-width="2"/>
+              <circle cx="546" cy="132" r="42" fill="#ffe9a8" opacity="0.22"/>
+              <g fill="#c8f5e6" opacity="0.6">
+                <circle cx="120" cy="90" r="2"/><circle cx="220" cy="60" r="1.6"/><circle cx="680" cy="86" r="2"/>
+                <circle cx="600" cy="230" r="1.6"/><circle cx="90" cy="250" r="1.8"/>
+              </g>
+              <rect x="26" y="24" width="112" height="24" rx="12" fill="rgba(255,209,102,0.16)" stroke="#ffd166" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#ffd166" font-family="PingFang SC,Microsoft YaHei,sans-serif">剧情MV</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">21:08</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>《纸鸢不落》乡村成长叙事完整版</h3>
+            <p>三个孩子、一只风筝、一个夏天的结束。麻花星空传剧社区高口碑原创短剧，首次全片上线。</p>
+            <div class="mh-tagrow"><span class="mh-chip">剧情MV</span><span class="mh-chip">成长故事</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#56e1c8,#ffd166)">苏</span>苏望山</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="11740">♡ <span>1.1万</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="mh-video-card" data-mh-tag="现场影像">
+          <div class="mh-video-thumb">
+            <svg viewBox="0 0 800 450" role="img" aria-label="现场影像旧城夜游封面，老巷灯笼与潮湿石板路">
+              <rect width="800" height="450" fill="#0c1026"/>
+              <rect x="0" y="0" width="800" height="450" fill="#151a3a" opacity="0.7"/>
+              <g fill="#1e2550">
+                <rect x="60" y="120" width="140" height="220"/><rect x="600" y="100" width="150" height="240"/>
+              </g>
+              <g stroke="#2a3168" stroke-width="2">
+                <line x1="0" y1="356" x2="800" y2="356"/>
+              </g>
+              <g fill="#ff7b9c" opacity="0.85">
+                <circle cx="132" cy="176" r="17"/><circle cx="690" cy="156" r="17"/>
+              </g>
+              <g stroke="#ffd166" stroke-width="1.6" opacity="0.7">
+                <line x1="132" y1="140" x2="132" y2="120"/><line x1="690" y1="120" x2="690" y2="100"/>
+              </g>
+              <path d="M0 400q200-40 400-8t400-24v82H0z" fill="#080b1e"/>
+              <path d="M120 362h560" stroke="#56e1c8" stroke-width="1.4" opacity="0.4"/>
+              <g fill="#0b0e24">
+                <path d="M330 300c0-30 12-50 24-50s24 20 24 50z"/>
+                <circle cx="354" cy="234" r="15"/>
+                <path d="M430 300c0-24 10-40 19-40s19 16 19 40z"/>
+                <circle cx="449" cy="246" r="12"/>
+              </g>
+              <rect x="26" y="24" width="118" height="24" rx="12" fill="rgba(139,123,247,0.18)" stroke="#8b7bf7" stroke-width="1"/>
+              <text x="44" y="41" font-size="12" fill="#c7bdff" font-family="PingFang SC,Microsoft YaHei,sans-serif">现场影像</text>
+            </svg>
+            <span class="mh-video-play" aria-hidden="true"><i>▶</i></span>
+            <span class="mh-video-dur">31:47</span>
+          </div>
+          <div class="mh-video-body">
+            <h3>《旧城夜游》在地影像纪事：走完这条街用了四个小时</h3>
+            <p>不设旁白的城市漫游，只有脚步声、灯笼与潮湿石板路。麻花星空传剧在地文化系列首作。</p>
+            <div class="mh-tagrow"><span class="mh-chip">现场影像</span><span class="mh-chip mh-chip--teal">在地文化</span></div>
+            <div class="mh-video-foot">
+              <span class="mh-author-mini"><span class="mh-avatar" style="background:linear-gradient(135deg,#8b7bf7,#ff7b9c)">陆</span>陆行舟</span>
+              <div class="mh-video-actions">
+                <button class="mh-act" type="button" data-mh-like="13506">♡ <span>1.3万</span></button>
+                <button class="mh-act" type="button" data-mh-save>☆ 收藏</button>
+                <button class="mh-act" type="button" data-mh-copy>⧉ 链接</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M15 关键词深度解析 ===== -->
+  <section class="mh-section" id="mhStory" aria-labelledby="mhStoryTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">品牌深度解析</span>
+          <h2 class="mh-h2" id="mhStoryTitle">为什么<em>麻花星空传剧原创MV在线看完整</em>值得被认真做</h2>
+          <p class="mh-lead">一个品牌如果只在首页喊口号，是很难被观众长期记住的。我们把这句话拆成四件事来讲：作品怎么来、完整版为什么重要、社区怎么活下去、品质如何被验证。</p>
+        </div>
+      </div>
+
+      <div class="mh-story">
+        <div class="mh-story-grid">
+          <div>
+            <h3>一、作品从哪里来：从剧本孵化到成片上线的一条链</h3>
+            <p>麻花星空传剧并不是一个简单的视频聚合站，而是一家持续运营的原创影像企业。每一年，我们通过官方投稿入口收到大量创作者的剧本雏形、分镜草稿和粗剪样片，内容审核团队与制片顾问会用两到三周时间做结构评估：这个故事是否适合用三分钟到三十分钟的体量讲完，情绪落点在哪里，镜头语言有没有自己的判断。评估通过后，作品进入拍摄支持的环节，官方提供部分器材、调色协作与音乐版权对接，让创作者不必在起步阶段就为授权问题受阻。</p>
+            <p>这样做的结果是，你在作品库里看到的每一部原创MV，都不是临时拼凑的素材堆叠。它们有明确的分镜设计、有配套的字幕、有可以追溯的授权记录。<b>正版、高清、可追溯</b>，是我们对内容生态最基本的要求，也是品牌能被称得上专业的原因。对于刚进入这个行业的年轻剧组来说，官方提供的器材清单、调色预设与声音规范，本身就是一份可复用的行业攻略。</p>
+
+            <h3>二、为什么强调“在线看完整”：完整版是叙事的一部分</h3>
+            <p>短剧与MV的内容形态，近两年被大量切成十几秒的片段在信息流里滚动。片段能带来瞬时注意，却很难承载完整的情绪曲线。麻花星空传剧选择在官网上坚持呈现完整版，原因很直接：很多作品的转折发生在第十八分钟，前十七分钟的铺垫都是有意义的。把观众当成愿意花时间的人，而不是只被推送打断的人，这是品牌的自我要求。</p>
+            <p>因此，作品库中的每个条目都会标注真实时长、是否为完整版本、是否包含片尾曲与幕后彩蛋。播放页不做强制跳转，不做中途插播，观众可以暂停、回看、收藏，页面会记住你看到的位置。这种设计看似朴素，却直接影响口碑。很多用户在评价里提到“终于有人让我一次看完”，我们认为这就是<b>用户至上</b>的具体表现。</p>
+
+            <h3>三、社区怎么活下去：创作者、观众与内容的三角关系</h3>
+            <p>一个视频社区如果只有作品没有讨论，会很快变成展示橱窗；如果只有讨论没有作品，又会变成闲聊广场。麻花星空传剧的做法是把创作者、观众与内容这三条线长期绑在一起。创作者在作品页能直接看到观众在具体时间点留下的短评，观众的意见会进入下一部作品的调整清单；观众也能通过投票参与专题企划的选题，甚至决定某个系列是否继续推进。</p>
+            <p>我们同时运营着创作灵感板块，把脚本结构、标题建议、剪辑思路整理成可下载的资料包，降低新人的入门门槛。每年举行的创意挑战赛与影像比赛，让社区里那些尚未签约但完成度很高的创作者获得曝光机会。报名、上传、下载、投票这些动作被放在同一个后台完成，流程清楚，规则透明，这也是平台能持续运营的基础。</p>
+
+            <h3>四、品质如何被验证：数据、评审与真实评价</h3>
+            <p>麻花星空传剧在官网上公开三类数据：播放与完整观看率、收藏与点赞比、创作者续约率。我们不希望只用播放量作为唯一标准，因为播放量可以被标题吸引，但完整观看率更能反映作品是否真的留住了人。评审方面，官方设有季度内容评审会，由制片、剪辑、音乐与社区用户代表共同参与，对作品给出具体维度的反馈，而不是一个模糊的分数。</p>
+            <p>用户评价同样被纳入考量。我们保留了不同长度、不同角度的评价，包括对节奏的批评、对配乐的质疑，因为只有真实的声音才能帮助品牌成长。深耕垂直领域多年，我们更愿意把“行业领先”理解为一种需要每天重新证明的状态，而不是一句写在墙上的标语。对麻花星空传剧来说，<b>匠心与创新</b>不是对立的两端，而是同一部作品在制作与表达上同时成立的两个条件。</p>
+            <p>回到关键词本身，“麻花星空传剧原创MV在线看完整”其实包含三层期待：一是原创，要求作品有自己的表达；二是MV，要求影像与音乐共同完成叙事；三是在线看完整，要求平台提供可信赖的观看体验。我们的官方网站围绕这三层期待搭建了整个内容生态，也希望每一位来到这里的观众，都能找到愿意从头看到尾的那一部。</p>
+          </div>
+
+          <aside class="mh-aside-box" aria-label="品牌数据摘要">
+            <h4>品牌运行数据</h4>
+            <ul>
+              <li>原创作品累计 <span>1860+</span></li>
+              <li>完整观看率 <span>74%</span></li>
+              <li>签约创作者 <span>326 位</span></li>
+              <li>年度专题企划 <span>18 个</span></li>
+              <li>社区月度互动 <span>42 万次</span></li>
+              <li>内容授权覆盖率 <span>100%</span></li>
+            </ul>
+            <p class="mh-aside-note">数据统计截至 2026 年 11 月，由麻花星空传剧官方网站定期更新，用于呈现内容生态的健康度。</p>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M4 专题企划 ===== -->
+  <section class="mh-section" id="mhTopics" aria-labelledby="mhTopicsTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">专题与企划</span>
+          <h2 class="mh-h2" id="mhTopicsTitle">正在更新的<em>精品内容</em>企划</h2>
+          <p class="mh-lead">专题是麻花星空传剧组织内容的方式：一个主题、一组创作者、一条持续更新的时间线。每个专题下的条目都可单独观看完整版。</p>
+        </div>
+        <button class="mh-btn mh-btn--ghost" type="button" data-mh-modal="mhSubmitModal">报名参与企划</button>
+      </div>
+
+      <div class="mh-topic-grid">
+        <article class="mh-topic">
+          <div class="mh-topic-top">
+            <span class="mh-chip mh-chip--teal">更新中</span>
+            <span class="mh-chip">第 3 季</span>
+          </div>
+          <h3>「星轨手记」城市夜行系列</h3>
+          <p>六座城市、六位导演，用一支MV的体量记录一条夜行路线。已更新至第 4 集，最新一集在南方港城拍摄。</p>
+          <ol>
+            <li>天台风向：旧城最高处的一镜到底</li>
+            <li>地铁末班：车厢里的沉默与旁白</li>
+            <li>港城潮声：退潮后的码头与吉他</li>
+          </ol>
+        </article>
+
+        <article class="mh-topic">
+          <div class="mh-topic-top">
+            <span class="mh-chip mh-chip--gold">征集报名</span>
+            <span class="mh-chip">创作挑战</span>
+          </div>
+          <h3>「冬日星轨」原创MV创意挑战</h3>
+          <p>面向全体社区创作者的三分钟单元，官方提供免费素材包、调色预设与音乐授权清单，评审团由制片人与用户代表共同组成。</p>
+          <ol>
+            <li>报名开启：11 月 20 日起提交创作提案</li>
+            <li>投稿截止：12 月 18 日 24 时前上传成片</li>
+            <li>公开投票：12 月 22 日社区投票开启</li>
+          </ol>
+        </article>
+
+        <article class="mh-topic">
+          <div class="mh-topic-top">
+            <span class="mh-chip mh-chip--pink">口碑专题</span>
+            <span class="mh-chip">人物访谈</span>
+          </div>
+          <h3>「镜头背后」创作者访谈计划</h3>
+          <p>把摄像机交给创作者本人，聊他们为什么这样取景、为什么删掉某场戏。每期附一份可下载的分镜拆解。</p>
+          <ol>
+            <li>阿椰：一台手持机器拍完整部短剧</li>
+            <li>李又川：灯光是被忽略的叙事工具</li>
+            <li>苏望山：在乡村寻找真实的声音</li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M5 创作者矩阵：双列简介 ===== -->
+  <section class="mh-section" id="mhCreators" aria-labelledby="mhCreatorsTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">创作者矩阵</span>
+          <h2 class="mh-h2" id="mhCreatorsTitle">让<em>原创</em>被看见的人</h2>
+          <p class="mh-lead">麻花星空传剧官方网站展示的创作者均为实名认证，作品授权清晰。点击“查看档案”可了解其创作方向与代表作品。</p>
+        </div>
+        <a class="mh-btn mh-btn--ghost" href="#mhSubmitModal" data-mh-modal="mhSubmitModal">申请成为创作者</a>
+      </div>
+
+      <div class="mh-creators">
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#56e1c8,#8b7bf7)">沈</div>
+          <div class="mh-creator-info">
+            <h3>沈夜舟 <span class="mh-role">剧情MV导演</span></h3>
+            <p>擅长用长镜头处理城市与人的关系，习惯在真实街景里完成调度。代表作品《星轨未尽》累计播放超过三百万次，他坚持每个项目都保留完整版与幕后手记。</p>
+            <div class="mh-creator-nums"><span>作品 <b>46</b></span><span>粉丝 <b>28.6万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="沈夜舟">查看档案</button>
+          </div>
+        </article>
+
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#ffd166,#ff7b9c)">椰</div>
+          <div class="mh-creator-info">
+            <h3>阿椰 <span class="mh-role">影像记录者</span></h3>
+            <p>一人一机的独立创作者，专注海边、傍晚与日常情绪。她认为设备不是限制，判断才是。作品《夏至未眠》以极简团队完成，被社区称为“最会拍告别的创作者”。</p>
+            <div class="mh-creator-nums"><span>作品 <b>38</b></span><span>粉丝 <b>21.4万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="阿椰">查看档案</button>
+          </div>
+        </article>
+
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#ff7b9c,#ffd166)">李</div>
+          <div class="mh-creator-info">
+            <h3>李又川 <span class="mh-role">摄影指导</span></h3>
+            <p>从广告摄影转入原创MV领域，擅长用光位讲故事。他在官网发布的《拍摄手记》系列附有完整灯位图与器材清单，是新人创作者下载最多的资料之一。</p>
+            <div class="mh-creator-nums"><span>作品 <b>52</b></span><span>粉丝 <b>17.9万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="李又川">查看档案</button>
+          </div>
+        </article>
+
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#56e1c8,#ffd166)">苏</div>
+          <div class="mh-creator-info">
+            <h3>苏望山 <span class="mh-role">乡村叙事创作者</span></h3>
+            <p>常年驻扎在南方山地，用纪录手法拍成长故事。他坚持不使用配乐铺满全片，把环境声留成叙事的一部分。《纸鸢不落》是他第一部全片上线作品。</p>
+            <div class="mh-creator-nums"><span>作品 <b>27</b></span><span>粉丝 <b>12.3万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="苏望山">查看档案</button>
+          </div>
+        </article>
+
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#8b7bf7,#ff7b9c)">陆</div>
+          <div class="mh-creator-info">
+            <h3>陆行舟 <span class="mh-role">在地文化拍摄者</span></h3>
+            <p>专注城市漫游与老街区影像，作品几乎不设旁白，靠脚步声与现场声完成叙事。他长期为社区提供在地拍摄路线攻略，被称作“最耐心的城市向导”。</p>
+            <div class="mh-creator-nums"><span>作品 <b>33</b></span><span>粉丝 <b>15.8万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="陆行舟">查看档案</button>
+          </div>
+        </article>
+
+        <article class="mh-creator">
+          <div class="mh-creator-avatar" style="background:linear-gradient(135deg,#8b7bf7,#56e1c8)">声</div>
+          <div class="mh-creator-info">
+            <h3>声浪计划 <span class="mh-role">现场影像团队</span></h3>
+            <p>由三位音乐现场摄影师组成的团队，负责麻花星空传剧年度Live企划的拍摄与混音。他们主张“把现场还给现场”，保留观众声与乐器原声，拒绝过度后期。</p>
+            <div class="mh-creator-nums"><span>作品 <b>19</b></span><span>粉丝 <b>9.7万</b></span></div>
+            <button class="mh-creator-btn" type="button" data-mh-modal="mhAuthorModal" data-mh-author="声浪计划">查看档案</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M14 + M7 榜单与图文索引 ===== -->
+  <section class="mh-section" id="mhRank" aria-labelledby="mhRankTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">数据榜单</span>
+          <h2 class="mh-h2" id="mhRankTitle">热度、口碑与<em>新人</em>的真实位置</h2>
+          <p class="mh-lead">榜单基于完整观看率、收藏点赞比与社区讨论量综合计算，每周一更新，不接受付费排名。</p>
+        </div>
+        <span class="mh-chip mh-chip--teal">更新于 2026-11-20</span>
+      </div>
+
+      <div class="mh-rank-wrap">
+        <div class="mh-rank">
+          <div class="mh-rank-head" role="tablist" aria-label="榜单切换">
+            <button class="mh-rank-tab is-active" type="button" role="tab" aria-selected="true" data-mh-rank="hot">热度榜</button>
+            <button class="mh-rank-tab" type="button" role="tab" aria-selected="false" data-mh-rank="new">新人榜</button>
+            <button class="mh-rank-tab" type="button" role="tab" aria-selected="false" data-mh-rank="praise">口碑榜</button>
+          </div>
+          <div class="mh-rank-list" id="mhRankList"></div>
+        </div>
+
+        <div class="mh-index-list">
+          <article class="mh-index-item">
+            <div class="mh-index-thumb">
+              <svg viewBox="0 0 200 150" role="img" aria-label="图文索引缩略图，星轨长曝光与城市轮廓">
+                <rect width="200" height="150" fill="#101a45"/>
+                <circle cx="150" cy="40" r="16" fill="#ffe9a8" opacity="0.85"/>
+                <path d="M0 108q50-26 100-8t100-18v68H0z" fill="#0a0d26"/>
+                <path d="M20 40q60 40 160 12" stroke="#56e1c8" stroke-width="1.8" fill="none" opacity="0.7"/>
+              </svg>
+            </div>
+            <div>
+              <h4>长曝光拍星轨：三脚架与快门曲线的入门攻略</h4>
+              <p>附参数对照表与失败案例，适合第一次拍星空的创作者。</p>
+            </div>
+          </article>
+          <article class="mh-index-item">
+            <div class="mh-index-thumb">
+              <svg viewBox="0 0 200 150" role="img" aria-label="图文索引缩略图，剪辑软件时间线与音频波形">
+                <rect width="200" height="150" fill="#141a3a"/>
+                <rect x="18" y="26" width="164" height="30" rx="5" fill="#1f2856"/>
+                <rect x="18" y="64" width="120" height="16" rx="4" fill="#56e1c8" opacity="0.7"/>
+                <rect x="18" y="86" width="150" height="16" rx="4" fill="#8b7bf7" opacity="0.7"/>
+                <path d="M18 124h40v-12h12v12h26v-20h10v20h50" stroke="#ff7b9c" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <div>
+              <h4>三分钟MV的剪辑节奏：什么时候该留白</h4>
+              <p>从粗剪到定剪的六次修改记录，含官方节奏模板下载。</p>
+            </div>
+          </article>
+          <article class="mh-index-item">
+            <div class="mh-index-thumb">
+              <svg viewBox="0 0 200 150" role="img" aria-label="图文索引缩略图，音乐授权文件与印章图形">
+                <rect width="200" height="150" fill="#1a1533"/>
+                <rect x="30" y="24" width="110" height="102" rx="6" fill="#26204d" stroke="#ffd166" stroke-width="1.6"/>
+                <g stroke="#a5aed6" stroke-width="2"><line x1="46" y1="48" x2="124" y2="48"/><line x1="46" y1="66" x2="124" y2="66"/><line x1="46" y1="84" x2="100" y2="84"/></g>
+                <circle cx="146" cy="106" r="20" fill="none" stroke="#ff7b9c" stroke-width="2.4"/>
+              </svg>
+            </div>
+            <div>
+              <h4>原创MV的音乐授权怎么谈：一份实用清单</h4>
+              <p>授权范围、期限与署名方式，避免上线后被迫下架。</p>
+            </div>
+          </article>
+          <article class="mh-index-item">
+            <div class="mh-index-thumb">
+              <svg viewBox="0 0 200 150" role="img" aria-label="图文索引缩略图，雨夜窗外的街灯光斑">
+                <rect width="200" height="150" fill="#0d1024"/>
+                <rect x="24" y="20" width="70" height="110" rx="4" fill="#1b2148"/>
+                <circle cx="140" cy="60" r="22" fill="#ffd166" opacity="0.35"/>
+                <circle cx="140" cy="60" r="10" fill="#ffe9a8"/>
+                <g stroke="#56e1c8" stroke-width="1.4" opacity="0.7"><line x1="110" y1="120" x2="180" y2="120"/><line x1="110" y1="132" x2="166" y2="132"/></g>
+              </svg>
+            </div>
+            <div>
+              <h4>雨夜戏怎么拍：反光板、水雾与色温控制</h4>
+              <p>三个低成本方案，附现场灯光位图与调色参考。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M8 短评列表 ===== -->
+  <section class="mh-section" id="mhReviews" aria-labelledby="mhReviewsTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">社区口碑</span>
+          <h2 class="mh-h2" id="mhReviewsTitle">观众写了什么，我们就<em>改</em>什么</h2>
+          <p class="mh-lead">以下评价来自麻花星空传剧官方网站的作品页，保留原始长度与语气，包含肯定与批评。</p>
+        </div>
+        <span class="mh-chip mh-chip--gold">口碑好评率 98%</span>
+      </div>
+
+      <div class="mh-comments">
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>雾港来信</b><span class="mh-comment-stars">★★★★★</span><span class="mh-chip">完整观看</span></div>
+          <p>第一次在官网上把一部26分钟的MV从头看到尾，中途没有插播，也没有跳转，这种体验太少了。片尾曲结束后还有三十秒的拍摄花絮，很值。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>林间有风</b><span class="mh-comment-stars">★★★★☆</span></div>
+          <p>画面质感确实专业，调色很统一。唯一想提的是第三段节奏略拖，如果能在第14分钟左右收一下会更好，当然这只是个人感受。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>一只加班猫</b><span class="mh-comment-stars">★★★★★</span><span class="mh-chip mh-chip--teal">收藏</span></div>
+          <p>收藏了《旧城夜游》，下班路上真的照着走了一遍。没有旁白反而更沉得进去，脚步声和风声都留得很干净。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>南岸旧书摊</b><span class="mh-comment-stars">★★★★★</span></div>
+          <p>作为新人创作者，下载了官网的拍摄手记和灯位图，照着拍完自己的第一支短片。这种愿意把方法公开出来的品牌不多，值得信赖。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>海盐汽水</b><span class="mh-comment-stars">★★★☆☆</span></div>
+          <p>内容不错，就是希望播放页的字幕可以再大一点，我用平板看的时候要凑近。另外希望增加倍速记忆功能。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>星轨观测员</b><span class="mh-comment-stars">★★★★★</span><span class="mh-chip mh-chip--pink">参与挑战</span></div>
+          <p>报名了冬日星轨挑战赛，从提案到上传整个流程很顺，资料包里连音乐授权清单都整理好了。希望以后能多一些这样的比赛。</p>
+        </article>
+        <article class="mh-comment">
+          <div class="mh-comment-head"><b>慢半拍剪辑师</b><span class="mh-comment-stars">★★★★☆</span></div>
+          <p>从剪辑角度说，《星轨未尽》的长镜头调度很强，但在两处转场上有明显的跳帧。整体仍然是我今年看过完成度最高的原创MV之一。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M10 + M11 企业动态与合作伙伴 ===== -->
+  <section class="mh-section" id="mhUpdates" aria-labelledby="mhUpdatesTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">企业动态</span>
+          <h2 class="mh-h2" id="mhUpdatesTitle">平台在更新，<em>生态</em>在生长</h2>
+          <p class="mh-lead">麻花星空传剧官方网站定期公开产品更新、内容企划与合作信息，方便创作者与观众了解平台的真实进展。</p>
+        </div>
+      </div>
+
+      <div class="mh-duo">
+        <div class="mh-news">
+          <article class="mh-news-item">
+            <time datetime="2026-11-21">2026-11-21 · 官方发布</time>
+            <h3>创作者后台上线批量上传与字幕自动对齐</h3>
+            <p>支持一次上传多集内容，字幕可自动与音轨对齐并以 SRT 格式导出，减少后期返工时间。</p>
+          </article>
+          <article class="mh-news-item">
+            <time datetime="2026-11-18">2026-11-18 · 内容更新</time>
+            <h3>「冬日星轨」创意挑战赛正式开放报名</h3>
+            <p>面向社区创作者的三分钟原创MV单元，官方素材包与调色预设已同步开放下载。</p>
+          </article>
+          <article class="mh-news-item">
+            <time datetime="2026-11-12">2026-11-12 · 品牌合作</time>
+            <h3>与三家独立音乐厂牌达成正版曲库合作</h3>
+            <p>社区创作者可在授权范围内直接使用合作曲库中的音乐完成作品，署名与授权记录自动归档。</p>
+          </article>
+          <article class="mh-news-item">
+            <time datetime="2026-11-05">2026-11-05 · 社区运营</time>
+            <h3>季度内容评审会完成，12 部作品进入推荐位</h3>
+            <p>评审由制片、剪辑与社区用户代表共同参与，反馈意见已同步至对应创作者后台。</p>
+          </article>
+        </div>
+
+        <div>
+          <div class="mh-partners">
+            <div class="mh-partner"><i></i>星轨音乐厂牌</div>
+            <div class="mh-partner"><i></i>南方光影设备</div>
+            <div class="mh-partner"><i></i>旧城文化中心</div>
+            <div class="mh-partner"><i></i>潮声独立唱片</div>
+            <div class="mh-partner"><i></i>海盐影视后期</div>
+            <div class="mh-partner"><i></i>青川影像学院</div>
+          </div>
+          <div class="mh-cta-band">
+            <div>
+              <h3>把你的作品放进下一期专题</h3>
+              <p>麻花星空传剧长期开放投稿与企划报名，原创MV、短剧、现场影像与在地记录均可提交。</p>
+            </div>
+            <button class="mh-btn mh-btn--pink" type="button" data-mh-modal="mhSubmitModal">立即投稿</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S7 FAQ ===== -->
+  <section class="mh-section" id="mhFaq" aria-labelledby="mhFaqTitle">
+    <div class="mh-shell">
+      <div class="mh-section-head">
+        <div>
+          <span class="mh-eyebrow">帮助中心</span>
+          <h2 class="mh-h2" id="mhFaqTitle">关于<em>在线看完整</em>的常见问题</h2>
+          <p class="mh-lead">如果你在使用麻花星空传剧官方网站时遇到问题，可以先看这里的说明；仍有疑问可通过页脚的联系方式反馈。</p>
+        </div>
+      </div>
+
+      <div class="mh-faq">
+        <details open>
+          <summary>麻花星空传剧的原创MV都是完整版吗？</summary>
+          <p>作品库中标注“完整版”的条目均为全片上线，包含片尾与部分幕后彩蛋，时长以条目显示为准，不做剪辑拆条。</p>
+        </details>
+        <details>
+          <summary>观看需要付费或注册账号吗？</summary>
+          <p>大部分原创MV与短剧可免费在线观看完整片。注册账号后可使用收藏、进度记忆与投稿功能，官方不会向观众收取观看费用。</p>
+        </details>
+        <details>
+          <summary>作品画质最高支持多少？</summary>
+          <p>官方上线作品默认提供高清版本，重点企划支持 4K 播放。实际画质会根据网络情况自动切换，可在播放器中手动选择。</p>
+        </details>
+        <details>
+          <summary>如何报名「冬日星轨」创意挑战赛？</summary>
+          <p>在投稿入口选择“挑战赛报名”，提交创作提案与样片后进入初审，通过后即可上传成片。报名与投稿截止时间为 12 月 18 日 24 时。</p>
+        </details>
+        <details>
+          <summary>投稿作品的版权归谁？</summary>
+          <p>版权归创作者所有，平台仅在授权范围内进行展示与推荐。授权期限、署名方式与分成规则会在投稿协议中写明，可随时查阅。</p>
+        </details>
+        <details>
+          <summary>可以使用平台曲库中的音乐吗？</summary>
+          <p>可以。合作曲库中的音乐在授权范围内可用于社区作品，使用时需保留署名，系统会自动生成授权记录以便后续追溯。</p>
+        </details>
+        <details>
+          <summary>榜单是如何计算的？能否付费上榜？</summary>
+          <p>榜单综合完整观看率、收藏点赞比与社区讨论量计算，每周一更新。平台不接受付费排名，如发现异常数据会人工复核。</p>
+        </details>
+        <details>
+          <summary>遇到播放卡顿或字幕异常怎么办？</summary>
+          <p>可先切换清晰度或刷新页面；如仍异常，请通过页脚反馈邮箱说明作品名称与设备信息，技术团队会在两个工作日内回复。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ===== S8 页脚 ===== -->
+<footer class="mh-footer">
+  <div class="mh-shell">
+    <div class="mh-footer-grid">
+      <div class="mh-footer-brand">
+        <a class="mh-brand" href="#mhTop" aria-label="返回麻花星空传剧官方网站顶部">
+          <span class="mh-brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="19" fill="none" stroke="#56e1c8" stroke-width="2.6"/>
+              <path d="M27 21l17 11-17 11z" fill="#ffd166"/>
+            </svg>
+          </span>
+          <span>
+            <span class="mh-brand-name">麻花星空<em>传剧</em></span>
+            <span class="mh-brand-sub">ORIGINAL MV STUDIO</span>
+          </span>
+        </a>
+        <p>麻花星空传剧官方网站，专注原创MV与短剧的正版高清发布，持续运营创作者社区，让每一部完整作品都被认真看完。</p>
+      </div>
+      <div>
+        <h4>内容入口</h4>
+        <ul>
+          <li><a href="#mhVideos">原创MV作品库</a></li>
+          <li><a href="#mhTopics">专题企划</a></li>
+          <li><a href="#mhRank">数据榜单</a></li>
+          <li><a href="#mhReviews">社区口碑</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与创作</h4>
+        <ul>
+          <li><a href="#mhCreators">创作者矩阵</a></li>
+          <li><a href="#mhSubmitModal" data-mh-modal="mhSubmitModal">投稿与报名</a></li>
+          <li><a href="#mhUpdates">企业动态</a></li>
+          <li><a href="#mhFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系我们</h4>
+        <ul>
+          <li>内容合作：studio@mahuastar.example</li>
+          <li>投稿咨询：creator@mahuastar.example</li>
+          <li>工作时间：周一至周五 10:00–19:00</li>
+          <li>办公地址：旧城文化中心 3 层影像工作室</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mh-footer-bottom">
+      <span>© 2026 麻花星空传剧官方网站 · 版权所有 · 持续运营中</span>
+      <span>内容备案号：影字 2026-1186 号 · <a href="#mhFaq">版权与授权说明</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== 弹窗：投稿 ===== -->
+<div class="mh-modal" id="mhSubmitModal" role="dialog" aria-modal="true" aria-labelledby="mhSubmitModalTitle">
+  <div class="mh-modal-card">
+    <button class="mh-modal-close" type="button" data-mh-close aria-label="关闭投稿弹窗">×</button>
+    <h3 id="mhSubmitModalTitle">投稿 / 报名</h3>
+    <p>提交后由麻花星空传剧内容团队在五个工作日内回复，原创MV、短剧与现场影像均可投递。</p>
+    <label for="mhSubmitName">称呼或创作者名</label>
+    <input id="mhSubmitName" type="text" placeholder="例如：沈夜舟" autocomplete="off">
+    <label for="mhSubmitContact">联系方式</label>
+    <input id="mhSubmitContact" type="text" placeholder="邮箱或社交账号" autocomplete="off">
+    <label for="mhSubmitDesc">作品简介</label>
+    <textarea id="mhSubmitDesc" rows="3" placeholder="简要说明作品类型、时长与创作方向"></textarea>
+    <div class="mh-modal-foot">
+      <button class="mh-btn mh-btn--ghost" type="button" data-mh-close>取消</button>
+      <button class="mh-btn mh-btn--primary" type="button" data-mh-submit-send>提交</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 弹窗：作者档案 ===== -->
+<div class="mh-modal" id="mhAuthorModal" role="dialog" aria-modal="true" aria-labelledby="mhAuthorModalTitle">
+  <div class="mh-modal-card">
+    <button class="mh-modal-close" type="button" data-mh-close aria-label="关闭作者档案">×</button>
+    <h3 id="mhAuthorModalTitle">创作者档案</h3>
+    <p id="mhAuthorModalBody">正在加载创作者信息。</p>
+    <div class="mh-modal-foot">
+      <button class="mh-btn mh-btn--primary" type="button" data-mh-close>知道了</button>
+    </div>
+  </div>
+</div>
+
+<div class="mh-toast" id="mhToast" role="status" aria-live="polite"></div>
+<button class="mh-totop" id="mhToTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  var toastEl = document.getElementById('mhToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('is-show'); }, 2200);
+  }
+
+  /* ---- 公告条轮播 ---- */
+  var announceItems = Array.prototype.slice.call(document.querySelectorAll('.mh-announce-item'));
+  var announceIdx = 0;
+  if(announceItems.length > 1){
+    setInterval(function(){
+      announceItems[announceIdx].classList.remove('is-live');
+      announceIdx = (announceIdx + 1) % announceItems.length;
+      announceItems[announceIdx].classList.add('is-live');
+    }, 4200);
+  }
+
+  /* ---- 移动端导航 ---- */
+  var burger = document.getElementById('mhBurger');
+  var nav = document.getElementById('mhNav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.textContent = open ? '✕' : '☰';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.textContent = '☰';
+      }
+    });
+  }
+
+  /* ---- 导航高亮 & 平滑滚动 ---- */
+  document.querySelectorAll('[data-mh-scroll]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var target = document.querySelector(btn.getAttribute('data-mh-scroll'));
+      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.mh-nav a'));
+  function updateNavActive(){
+    var pos = window.scrollY + 180;
+    var current = sections[0] ? sections[0].id : '';
+    sections.forEach(function(sec){
+      if(sec.offsetTop <= pos) current = sec.id;
+    });
+    navLinks.forEach(function(a){
+      a.classList.toggle('is-active', a.getAttribute('href') === '#' + current);
+    });
+  }
+
+  /* ---- 搜索反馈 ---- */
+  var searchInput = document.getElementById('mhSearchInput');
+  var searchBtn = document.getElementById('mhSearchBtn');
+  var searchFeedback = document.getElementById('mhSearchFeedback');
+  function runSearch(){
+    if(!searchInput || !searchFeedback) return;
+    var q = searchInput.value.trim();
+    if(!q){
+      searchFeedback.textContent = '请输入作品名、创作者名或关键词，例如「星轨」「访谈」。';
+      searchFeedback.classList.add('is-show');
+      return;
+    }
+    var hits = 0;
+    document.querySelectorAll('#mhVideoGrid .mh-video-card').forEach(function(card){
+      var text = card.textContent || '';
+      var match = text.indexOf(q) !== -1;
+      card.style.display = match ? '' : 'none';
+      if(match) hits++;
+    });
+    var titles = [];
+    document.querySelectorAll('#mhVideoGrid .mh-video-card h3').forEach(function(h){ titles.push(h.textContent.trim()); });
+    var matchTitles = titles.filter(function(t){ return t.indexOf(q) !== -1; });
+    searchFeedback.textContent = hits > 0
+      ? '已筛选出 ' + hits + ' 个与「' + q + '」相关的作品：' + matchTitles.join('、')
+      : '未找到与「' + q + '」直接匹配的作品，已为你保留全部内容，可尝试「星轨」「夏日」「现场」等词。';
+    searchFeedback.classList.add('is-show');
+    if(hits === 0){
+      document.querySelectorAll('#mhVideoGrid .mh-video-card').forEach(function(card){ card.style.display = ''; });
+    }
+  }
+  if(searchBtn) searchBtn.addEventListener('click', runSearch);
+  if(searchInput) searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+
+  /* ---- 点赞 ---- */
+  document.querySelectorAll('[data-mh-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var base = parseInt(btn.getAttribute('data-mh-like'), 10) || 0;
+      var span = btn.querySelector('span');
+      var on = btn.classList.toggle('is-on');
+      var val = on ? base + 1 : base;
+      if(span){
+        span.textContent = val >= 10000 ? (val/10000).toFixed(1) + '万' : String(val);
+      }
+      btn.firstChild.nodeValue = on ? '♥ ' : '♡ ';
+      showToast(on ? '已点赞，感谢支持原创作品' : '已取消点赞');
+    });
+  });
+
+  /* ---- 收藏 ---- */
+  document.querySelectorAll('[data-mh-save]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var on = btn.classList.toggle('is-on');
+      btn.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      showToast(on ? '已加入收藏夹，可在个人中心查看' : '已取消收藏');
+    });
+  });
+
+  /* ---- 复制链接 ---- */
+  document.querySelectorAll('[data-mh-copy]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var text = '麻花星空传剧原创MV在线看完整 · 官方作品页';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){
+          showToast('链接已复制，可分享给朋友');
+        }).catch(function(){
+          showToast('复制失败，请手动选择页面内容');
+        });
+      } else {
+        showToast('当前环境不支持自动复制，请手动选择');
+      }
+    });
+  });
+
+  /* ---- 标签筛选 ---- */
+  document.querySelectorAll('[data-mh-filter]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var tag = btn.getAttribute('data-mh-filter');
+      document.querySelectorAll('[data-mh-filter]').forEach(function(b){ b.classList.remove('mh-chip--teal'); });
+      btn.classList.add('mh-chip--teal');
+      document.querySelectorAll('#mhVideoGrid .mh-video-card').forEach(function(card){
+        var cardTag = card.getAttribute('data-mh-tag') || '';
+        card.style.display = (tag === '全部' || cardTag === tag) ? '' : 'none';
+      });
+      showToast(tag === '全部' ? '已展示全部作品' : '已筛选：' + tag);
+    });
+  });
+
+  /* ---- 榜单切换 ---- */
+  var rankData = {
+    hot: [
+      {t:'《星轨未尽》原创MV完整版', v:'128.4万'},
+      {t:'《旧城夜游》在地影像纪事', v:'96.2万'},
+      {t:'《城市声浪》Live 全场回放', v:'88.7万'},
+      {t:'《夏至未眠》海边黄昏剪辑', v:'74.1万'},
+      {t:'《纸鸢不落》乡村叙事完整版', v:'61.5万'},
+      {t:'一支MV的十一天：拍摄手记', v:'53.8万'}
+    ],
+    new: [
+      {t:'《雾中站台》新人实验影像', v:'9.6万'},
+      {t:'《十七楼阳台》三分钟短片', v:'8.2万'},
+      {t:'《河岸拾光》手持记录', v:'7.4万'},
+      {t:'《夜班公交》城市切片', v:'6.8万'},
+      {t:'《旧毛衣》家庭影像小品', v:'5.9万'},
+      {t:'《回声练习》声音实验MV', v:'5.1万'}
+    ],
+    praise: [
+      {t:'《纸鸢不落》', v:'好评 99%'},
+      {t:'《星轨未尽》', v:'好评 98%'},
+      {t:'《旧城夜游》', v:'好评 98%'},
+      {t:'《夏至未眠》', v:'好评 97%'},
+      {t:'《城市声浪》', v:'好评 96%'},
+      {t:'《拍摄手记》系列', v:'好评 96%'}
+    ]
+  };
+  var rankList = document.getElementById('mhRankList');
+  function renderRank(key){
+    if(!rankList) return;
+    var arr = rankData[key] || rankData.hot;
+    var html = '';
+    arr.forEach(function(item, i){
+      html += '<div class="mh-rank-row"><span class="mh-rank-no">' + (i + 1) + '</span><h4>' + item.t + '</h4><span class="mh-rank-val">' + item.v + '</span></div>';
+    });
+    rankList.innerHTML = html;
+  }
+  document.querySelectorAll('[data-mh-rank]').forEach(function(tab){
+    tab.addEventListener('click', function(){
+      document.querySelectorAll('[data-mh-rank]').forEach(function(t){
+        t.classList.remove('is-active');
+        t.setAttribute('aria-selected','false');
+      });
+      tab.classList.add('is-active');
+      tab.setAttribute('aria-selected','true');
+      renderRank(tab.getAttribute('data-mh-rank'));
+    });
+  });
+  renderRank('hot');
+
+  /* ---- 弹窗管理 ---- */
+  var modalTriggers = document.querySelectorAll('[data-mh-modal]');
+  var authorInfo = {
+    '沈夜舟':'剧情MV导演，擅长长镜头与真实街景调度。代表作品《星轨未尽》累计播放超过三百万次。坚持每个项目保留完整版与幕后手记，是麻花星空传剧官方网站作品库中被完整观看次数最多的创作者之一。',
+    '阿椰':'一人一机的独立影像记录者，专注海边、傍晚与日常情绪。作品《夏至未眠》以极简团队完成，被社区称为最会拍告别的创作者，官网可查看其完整拍摄手记。',
+    '李又川':'摄影指导，从广告摄影转入原创MV领域，擅长用光位讲故事。官网发布的《拍摄手记》系列附完整灯位图与器材清单，是新人创作者下载最多的资料之一。',
+    '苏望山':'乡村叙事创作者，长期驻扎南方山地，用纪录手法拍成长故事。坚持不让配乐铺满全片，把环境声留成叙事的一部分，《纸鸢不落》是其第一部全片上线作品。',
+    '陆行舟':'在地文化拍摄者，专注城市漫游与老街区影像，作品几乎不设旁白。长期为社区提供在地拍摄路线攻略，被称作最耐心的城市向导。',
+    '声浪计划':'由三位音乐现场摄影师组成的团队，负责年度Live企划的拍摄与混音。主张把现场还给现场，保留观众声与乐器原声，拒绝过度后期。'
+  };
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(!m) return;
+    m.classList.add('is-open');
+    document.body.classList.add('mh-modal-open');
+    var btn = m.querySelector('.mh-modal-close');
+    if(btn) btn.focus();
+  }
+  function closeModal(m){
+    if(!m) return;
+    m.classList.remove('is-open');
+    document.body.classList.remove('mh-modal-open');
+  }
+  modalTriggers.forEach(function(trigger){
+    trigger.addEventListener('click', function(e){
+      e.preventDefault();
+      var id = trigger.getAttribute('data-mh-modal');
+      var author = trigger.getAttribute('data-mh-author');
+      if(author){
+        var body = document.getElementById('mhAuthorModalBody');
+        var title = document.getElementById('mhAuthorModalTitle');
+        if(title) title.textContent = author + ' · 创作者档案';
+        if(body) body.textContent = authorInfo[author] || '暂无更多信息。';
+      }
+      openModal(id);
+    });
+  });
+  document.querySelectorAll('[data-mh-close]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      closeModal(btn.closest('.mh-modal'));
+    });
+  });
+  document.querySelectorAll('.mh-modal').forEach(function(m){
+    m.addEventListener('click', function(e){
+      if(e.target === m) closeModal(m);
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.mh-modal.is-open').forEach(closeModal);
+    }
+  });
+
+  /* ---- 投稿提交 ---- */
+  var submitSend = document.querySelector('[data-mh-submit-send]');
+  if(submitSend){
+    submitSend.addEventListener('click', function(){
+      var name = document.getElementById('mhSubmitName');
+      var contact = document.getElementById('mhSubmitContact');
+      var desc = document.getElementById('mhSubmitDesc');
+      if(!name || !name.value.trim()){
+        showToast('请填写称呼或创作者名');
+        if(name) name.focus();
+        return;
+      }
+      if(!contact || !contact.value.trim()){
+        showToast('请填写联系方式，方便团队回复');
+        if(contact) contact.focus();
+        return;
+      }
+      closeModal(document.getElementById('mhSubmitModal'));
+      showToast('提交成功，内容团队将在五个工作日内回复');
+      if(desc) desc.value = '';
+    });
+  }
+
+  /* ---- 回到顶部 ---- */
+  var toTop = document.getElementById('mhToTop');
+  if(toTop){
+    toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+  }
+  function onScroll(){
+    updateNavActive();
+    if(toTop) toTop.classList.toggle('is-show', window.scrollY > 600);
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---- 数字滚动 ---- */
+  var counted = false;
+  var countEls = document.querySelectorAll('[data-mh-count]');
+  function runCount(){
+    if(counted || !countEls.length) return;
+    counted = true;
+    countEls.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-mh-count'), 10) || 0;
+      var start = 0;
+      var step = Math.max(1, Math.round(target / 34));
+      var timer = setInterval(function(){
+        start += step;
+        if(start >= target){ start = target; clearInterval(timer); }
+        el.textContent = String(start);
+      }, 26);
+    });
+  }
+  var hero = document.querySelector('.mh-hero');
+  if(hero && 'IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ runCount(); io.disconnect(); } });
+    }, {threshold:0.25});
+    io.observe(hero);
+  } else {
+    runCount();
+  }
+})();
+</script>
+</body>
+                </html>
